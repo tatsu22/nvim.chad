@@ -45,6 +45,11 @@ local plugins = {
     },
 
     {
+        'nvim-treesitter/nvim-treesitter-context',
+        ft = "go",
+    },
+
+    {
         "olexsmir/gopher.nvim",
         ft = "go",
         dependencies = { -- dependencies
