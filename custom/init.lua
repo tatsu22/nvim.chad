@@ -24,7 +24,7 @@ opt.smartindent = true
 -- wrap = bad
 opt.wrap = false
 
--- me undo long time
+-- file undo for longer lived undos
 opt.swapfile = false
 opt.backup = false
 opt.undodir = os.getenv("HOME") .. "/.undodir"
