@@ -73,6 +73,13 @@ local plugins = {
         'mbbill/undotree',
         cmd = "UndotreeToggle",
     },
+    {
+        'karb94/neoscroll.nvim',
+        lazy = false,
+        config = function()
+            require "custom.configs.neoscroll"
+        end,
+    },
 
     -- To make a plugin not be loaded
     -- {

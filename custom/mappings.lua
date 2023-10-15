@@ -3,8 +3,6 @@ local M = {}
 
 M.general = {
     n = {
-        ["<C-d>"] = { "<C-d>zz", "page down and recenter" },
-        ["<C-u>"] = { "<C-u>zz", "page up and recenter" },
         ["n"] = { "nzzzv", "find next and recenter" },
         ["N"] = { "Nzzzv", "find previous and recenter" },
         ["<leader>y"] = { [["+y"]], "yank to clipboard"},
