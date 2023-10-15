@@ -1,3 +1,15 @@
-# Example_config
+# nvim.chad
 
-This can be used as an example custom config for NvChad. Do check the https://github.com/NvChad/nvcommunity
+Customization on top of nvChad
+
+# Installation
+
+Install nvChad
+
+```
+git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1 && nvim
+```
+
+Clone this repo and run `install.sh`
+
+Done!
