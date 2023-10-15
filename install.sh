@@ -1,3 +1,3 @@
 #!/bin/sh
 
-cp -r . ~/.config/nvim/lua/custom/
+cp -r configs ~/.config/nvim/lua/
